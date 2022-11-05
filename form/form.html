@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario</h1>
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Volver a Index</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <main>
+        <section>
+            <form>
+                <fieldset>
+                    <legend>Nombre y apellidos</legend>
+                    
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Escriba su nombre">
+                    
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" placeholder="Escriba sus apellidos">
+                </fieldset>
+                <br>
+                
+                <fieldset>
+                    <legend>Fecha de Nacimiento</legend>
+                    <label for="fechaNacimiento"></label>
+                    <input type="date" id="fechaNacimiento">
+                </fieldset>
+                <br>
+
+                <fieldset>
+                  <legend>Edad</legend>
+                  <label for="edad"></label>
+                  <input type="number" id="edad" placeholder="Escriba su edad">
+                </fieldset>
+                <br>
+                
+                <fieldset>
+                  <legend>Lugar de nacimiento</legend>
+                  
+                  <label for="lugar"></label>
+                  <input type="text" id="lugar" placeholder="Escriba su lugar de nacimiento">
+                </fieldset>
+                <br>
+
+                <fieldset>
+                    <legend>Sexo</legend>
+
+                    <label for="hombre">Hombre</label>
+                    <input type="radio" id="hombre" name="sexo" value="Hombre">
+                    <label for="mujer">Mujer</label>
+                    <input type="radio" id="mujer" name="sexo" value="Mujer">
+                </fieldset>
+                <br>
+                <button type="submit">Enviar Datos</button>
+            </form> 
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>&copy; Copyright 2022</p>
+    </footer>
+</body>
+</html>
